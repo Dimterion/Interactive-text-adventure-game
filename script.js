@@ -256,7 +256,7 @@ const textNodes = [
   },
   {
     id: 13,
-    text: `Nnif looks at you with big eyes. - “Oh my… He talked to you directly? Wow. That’s something. Haven’t seen that old bastard for a long time. Say one thing about him… He can make an appearance, ain’t he?” - She thinks about something for a while. - “Okie-dokie, mister genius doesn’t come just for a conversation. Fine. Anyway it belonged to him back in the days. I can provide you with an… interesting mode for the arena. Call it Event Horizon or simply EH. In some eyes it may look like cheating, but peeps mostly don’t know about it or don’t understand how it works, so it won’t get you banhammered if that worries you. Wanna know more?”`,
+    text: `Nnif looks at you with big eyes. - “Oh my… He talked to you directly? Wow. That’s something. Haven’t seen that old bastard for a long time. Say one thing about him… He can make an appearance, ain’t he?” - She thinks about something for a while. - “Okie-dokie, mister genius doesn’t come just for a conversation. Fine. Anyway it was made by him back in the days. I can provide you with an… interesting mode for the arena. Call it Event Horizon or simply EH. In some eyes it may look like cheating, but peeps mostly don’t know about it or don’t understand how it works, so it won’t get you banhammered if that worries you. Wanna know more?”`,
     options: [
       {
         text: `“Sure, I’m always up to some borderline cheating usage. Tell me what it does.”`,
@@ -270,7 +270,7 @@ const textNodes = [
   },
   {
     id: 14,
-    text: `Nnif clears her throat. - “Well, let’s avoid the “chea”-word from now on. As I said, it’s not really prohibited. Just a bit shady, let’s put it like that. Deo was the one who created it and, honestly, only he knows how exactly this thing works. To cut it short, it makes you see the most possible move of your opponent with a huge chance for it to happen. I believe it’s like a hundred percent, but Deo said it’s just close to that as nothing is really one hundred percent and blah, blah, blah. Let’s just consider it to be always correct. To be fair, I’ve never used it on me, but it’s been tested many times, so it works, that I know. The rest will think that it’s kinda UI adjustment, so I suggest not go into too many details and explain it to everyone. Just confirm that it is and keep using it. That’s pretty much it. Wanna proceed with the installation?”`,
+    text: `Nnif clears her throat. - “Well, let’s avoid the “chea”-word from now on. As I said, it’s not really prohibited. Just a bit shady, let’s put it like that. Deo was the one who created it and, honestly, only he knows how exactly this thing works. To cut it short, it makes you see the most possible move of your opponent with a huge chance for it to happen. I believe it’s like a hundred percent, but Deo said it’s just close to that as nothing is really one hundred percent and blah, blah, blah. Let’s just consider it to be always correct. To be fair, I’ve never used it on me, but it’s been tested many times, so it works, that I know. The rest will think that it’s kinda UI adjustment, so I suggest not go into too many details and explain it to everyone. Just confirm that it is and keep using it. And in case you are wondering, old dog insisted on not showing it to anyone unless someone mentions his name, so you’ll be entering the brave new world of first guinea pigs. That’s pretty much it. Wanna proceed with the installation?”`,
     options: [
       {
         text: `“Yeah, let’s do this. Wrap it up, plug it in. Where do I need to sign to be able to see the future with this old man’s gift?”`,
@@ -293,6 +293,10 @@ const textNodes = [
       {
         text: `“Don’t really see any difference. A typical low-level arena game. Ripboy abuses the time catching tactics while the greenie just rushes which is always a 50/50 situation. What’s so special about your mode?”`,
         nextText: 16,
+      },
+      {
+        text: `“Hm, I don’t think this thing works. You sure you did the installation correctly. No offense, but maybe we should reinstall it?”`,
+        nextText: 59,
       },
     ],
   },
@@ -600,7 +604,7 @@ const textNodes = [
   },
   {
     id: 40,
-    text: `Nnif looks at you with big eyes. - “Oh my… He talked to you directly? Here? Wow. That’s something. Haven’t seen that old bastard for a long time. Say one thing about him… He can make an appearance, ain’t he?” - She thinks about something for a while. - “Okie-dokie, mister genius doesn’t come just for a conversation. Fine. Anyway it belonged to him back in the days. I’ve found a couple of tools for ya, but as you mentioned this grumpy old kitten I can provide you with something else… An interesting mode for the arena. Call it Event Horizon or simply EH. In some eyes it may look like cheating, but peeps mostly don’t know about it or don’t understand how it works, so it won’t get you banhammered if that worries you. Wanna know more?”`,
+    text: `Nnif looks at you with big eyes. - “Oh my… He talked to you directly? Here? Wow. That’s something. Haven’t seen that old bastard for a long time. Say one thing about him… He can make an appearance, ain’t he?” - She thinks about something for a while. - “Okie-dokie, mister genius doesn’t come just for a conversation. Fine. Anyway it was made by him back in the days. I’ve found a couple of tools for ya, but as you mentioned this grumpy old kitten I can provide you with something else… An interesting mode for the arena. Call it Event Horizon or simply EH. In some eyes it may look like cheating, but peeps mostly don’t know about it or don’t understand how it works, so it won’t get you banhammered if that worries you. Wanna know more?”`,
     options: [
       {
         text: `“Why not? Hit me with all you’ve got, almighty tech expert. Cheating or no-cheating has alway been a foggy border for me.”`,
@@ -894,12 +898,14 @@ const textNodes = [
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 59,
+    text: `Nnif frowns and seems a bit irritated. - “Dude, show some respect. I’m in this biz for quite some time. Soft is installed as smoothly as you could imagine. Have you seen the words while entering? Well, it’s not just words, the previous shop owner, upon his last days, scanned and uploaded his memories right into here.” - She taps herself on the tattoo again. - “So, I’m kinda the voice of a great man…” - You suddenly realize that the projection on the wall now shows exactly the same events that you’ve just seen. Ripboy beats an orc abusing the time catching tactics. You interrupt Nnif's monologue and explain to her that.
+
+    She laughs. - “Ha! I’ve told you it’s working. Pretty cool, ain’t it? It shows you some sort of the most possible events in the near future. Works only in the arena. So, don’t get too excited about it. But if you find some new functionalities, be a darling and do let me know. I’ll probably need to replicate it and become super rich. Also, I’ve added an on/off switch, you’ll be able to see it in your UI now. No other options really. You either use it or keep it turned off.”`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `“Some practice needed, but looks great. Thanks Nnif, you rock. As always. Appreciate it.” - You realize that your arena will start soon. - “Ok, I better go now, looking forward to testing this thingy regardless of the match results. Thanks again. See you on the other level… one day.”`,
+        nextText: 17,
       },
     ],
   },

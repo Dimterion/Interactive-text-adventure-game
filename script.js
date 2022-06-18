@@ -346,6 +346,10 @@ const textNodes = [
         text: `You shake hands with Arika. - “Hey-hey. Welcome. I’m Soai. Kind of a regular here, lol. I guess one can even say stuck. But we can all hope for a better tomorrow. Where did you come from if you don’t mind me asking?”`,
         nextText: 19,
       },
+      {
+        text: `Cross your hands on the chest and play a cool-boy. - “So, we’ve got a newbie here, haven’t we? Call me Soai. I'm a veteran here, know all the ins and outs of this arena.”`,
+        nextText: 64,
+      },
     ],
   },
   {
@@ -361,6 +365,10 @@ const textNodes = [
       {
         text: `Kassad. A romantic soldier with a love for the past. Have a special ability of moving backwards and using weapons from any period of history. Can be stunned by flashbacks randomly at any moment. With very little chance can disappear from the battle with a suddenly appearing woman (some say that may happen, but so far there is no real proof, so it’s quite unlikely to happen during the arena).`,
         nextText: 20,
+      },
+      {
+        text: `Masteen. A mysterious templar. Always carries a strange cube with himself. Says there’s a space tree there that he can ride. Can randomly lose conscience. Some also say that he can disappear at any moment without a warning. Though nobody could provide any evidence for now.`,
+        nextText: 66,
       },
     ],
   },
@@ -380,11 +388,15 @@ const textNodes = [
         text: `You program Kassad to evade gnome’s strike, ignore him and jump into the screen.`,
         nextText: 21,
       },
+      {
+        text: `Program Kassad to shoot a few rounds to the gnome’s mechanic arm, then rush forward.`,
+        nextText: 67,
+      },
     ],
   },
   {
     id: 21,
-    text: `Kassad moves to the side and the mechanic arm doesn’t reach him. Gnome didn’t expect that and the arm keeps moving by inertia making him hit the ground and get stunned instead. Your character keeps moving and enters the race area.
+    text: `Your character moves to the side and the mechanic arm doesn’t reach him. Gnome didn’t expect that and the arm keeps moving by inertia making him hit the ground and get stunned instead. You keep moving and enter the race area.
 
     Arika appears near you on the red futuristic bike. She winks. - “Cheers, Soai-boy!” - Then she drives forward and disappears behind the corner of the track.
     
@@ -395,6 +407,10 @@ const textNodes = [
       {
         text: `You open the console and call the function useShortcut().`,
         nextText: 22,
+      },
+      {
+        text: `Ignore the graffiti and keep moving forward.`,
+        nextText: 68,
       },
     ],
   },
@@ -410,6 +426,10 @@ const textNodes = [
         text: `You go right into the portal while it’s still open.`,
         nextText: 23,
       },
+      {
+        text: `You are here to win the race. Next time, sir rabbit. Keep moving through the tunnel to its exit.`,
+        nextText: 69,
+      },
     ],
   },
   {
@@ -421,7 +441,7 @@ const textNodes = [
     “Hello, dear boy. I am glad that you’ve decided to choose this path. I’ve been waiting for quite some time till you do that.” - You hear the voice of an old man you’ve met earlier today. Deo was his name.`,
     options: [
       {
-        text: `“Hello old man. How did you manage to get here? And what is happening? Have you been waiting for me to come?” - Questions keep pouring out of you like water from the bottle turned upside down. You have more but need a moment to catch your breath.`,
+        text: `“Old man!? How did you manage to get here? And what is happening? Have you been waiting for me to come?” - Questions keep pouring out of you like water from the bottle turned upside down. You have more but need a moment to catch your breath.`,
         nextText: 24,
       },
     ],
@@ -514,8 +534,7 @@ const textNodes = [
     id: 32,
     text: `Arika’s character, you just noticed it, looks exactly the same as you saw her before the arena. Seems that she’s using the same appearance for her character. For those who want to spend some extra money on cosmetics it is possible to buy a skin and then your arena character will look like your character in ZerOne (but you still need to play with one of the suggested characters, only the appearance will be different). It’s strange though, as lower levels people rarely spend their money on such things.
 
-    What is also strange is the look on Arika’s face. Seems like she’s glad that you managed to be in the first place. She smiles and winks at you (sliding off her eyes implants for a second).
-    `,
+    What is also strange is the look on Arika’s face. Seems like she’s glad that you managed to be in the first place. She smiles and winks at you (sliding off her eyes implants for a second).`,
     options: [
       {
         text: `You see the finish line, charge forward and cross it, winning the race.`,
@@ -739,7 +758,7 @@ const textNodes = [
     It’s time to choose a character you’ll be playing during the arena. You go to your locker and open the menu with the randomly provided options.`,
     options: [
       {
-        text: `Kassad. A romantic soldier with a love for the past. Have a special ability of moving backwards and using weapons from any period of history. Can be stunned by flashbacks randomly at any moment. With very little chance can disappear from the battle with a suddenly appearing woman (some say that may happen, but so far there is no real proof, so it’s quite unlikely to happen during the arena).`,
+        text: `Kassad. A romantic soldier with a love for the past. Have a special ability of moving backwards and using weapons from any period of history. Can be stunned by flashbacks randomly at any moment. With very little chance can flee from the battle with a suddenly appearing woman (some say that may happen, but so far there is no real proof, so it’s quite unlikely to happen during the arena).`,
         nextText: 49,
       },
     ],
@@ -978,6 +997,164 @@ const textNodes = [
       {
         text: `Maybe he is right and it’s possible to start again. What would you choose then? - “Ok, Sane Snacks, I accept.”`,
         nextText: 2,
+      },
+    ],
+  },
+  {
+    id: 64,
+    text: `Arika can’t hold herself and starts laughing. - “I like your sense of humor! Veteran! He-he-he. I’m something of a veteran myself.” - She keeps giggling. - “So, what can you tell me about this place? Should I go all defense or offense to get… not the first place?” - She winks.`,
+    options: [
+      {
+        text: `You understand that you look like a child now. - “Yeah, sorry about that. I guess I’m not good at meeting new people. I’m by no means a pro here. Just keep trying and hope one day to become good enough to win. Where did you come from if you don’t mind me asking?”`,
+        nextText: 19,
+      },
+      {
+        text: `Pfff, what do you know! I’m not in the mood to talk with noobs. So, figure it out yourself.” - You decide to walk away.`,
+        nextText: 65,
+      },
+    ],
+  },
+  {
+    id: 65,
+    text: `Arika waves at you. - “Have fun not talking to yourself then!” - Despite everything she’s still looking like having a good time and nothing happened. - “See ya! Have a good time!”
+    
+    While you spoke with her other participants started entering the lockers area. While the space looks small, developers made a system of layers, so everyone can fit in and still be able to communicate with the rest. Actually, they called it shards, not layers, but frankly nobody really understood the difference. Long story short, a small lockers area could fit lots of poets without the need to extend its physical space.
+    
+    Due to this you don’t see all of the participants but you can check the list in your UI interface and target those you want to talk to. Arika was the first one to come, so she automatically got into the same shard as you.
+    
+    It’s time to choose a character you’ll be playing during the arena. You go to your locker and open the menu with the randomly provided options.`,
+    options: [
+      {
+        text: `Kassad. A romantic soldier with a love for the past. Have a special ability of moving backwards and using weapons from any period of history. Can be stunned by flashbacks randomly at any moment. With very little chance can disappear from the battle with a suddenly appearing woman (some say that may happen, but so far there is no real proof, so it’s quite unlikely to happen during the arena).`,
+        nextText: 20,
+      },
+      {
+        text: `Masteen. A mysterious templar. Always carries a strange cube with himself. Says there’s a space tree there that he can ride. Can randomly lose conscience. Some also say that he can disappear at any moment without a warning. Though nobody could provide any evidence for now.`,
+        nextText: 66,
+      },
+    ],
+  },
+  {
+    id: 66,
+    text: `You decide to stick with Masteen for this match. Initially your character is like a blank template with some basic traits. It’s up to you to program it during the arena. What and how it’ll be doing is your job. The match is about to start and you walk out of the locker area to finally enter the arena.
+
+    Shrike’s always changing. Each time you enter it, you don’t know where the race will start and end and what challenges are waiting for you on the way. Today’s route goes through the rabbit hole. The first checkpoint will be initiated once you go through the massive portal designed as an old PC monitor. You see green lines running on it and forming a phrase “Wake up Soai”. Last word glitches a bit, and you have a strange feeling about it, but it’s most likely just a delay, as rendering a name for each participant may take a bit of time, given the fact that lower levels tech is outdated.
+    
+    You and other participants are gathering right in front of the screen. Arika is standing not far from you. Once the race starts the participants stay in the current position and get control over the chosen characters that will appear right on the start line. Green lines disappear from the giant monitor and now it has a countdown running from -1 to 8. On 8 the race begins.
+    
+    Suddenly you see that timer jumped to 8 straight away and the moment you got control over Masteen a player to your right, a gnome with a giant mechanic arm, hit you in the head with a steam-hummer. Your character gets stunned for 10 seconds and its HP reduces for 10 points. Then, a moment later, the visual changes and you realize that Event Horizon just showed you the near future prediction. The race is still about to start and the countdown just went to 7.
+    
+    8. The race starts.`,
+    options: [
+      {
+        text: `You program Masteen to evade gnome’s strike, ignore him and jump into the screen.`,
+        nextText: 21,
+      },
+    ],
+  },
+  {
+    id: 67,
+    text: `Kassad starts moving, takes out his futuristic rifle with a small logo of a girl trapped inside of a pyramid. He turns around and while still moving shoots at the gnome’s arm. It’s being destroyed and he is stunned for a few seconds. Kassad’s moves didn’t slow you down and he keeps running forward.
+
+    Arika appears near you on the red futuristic bike. She mocks you. - “Cruel you are sir. Shooting at the arms of cute little gnomes!” - Then she drives forward and disappears behind the corner of the track.
+    
+    You saw a labyrinth-like route ahead of you with many turns and unknown areas. It’s high time to move quickly as other participants start appearing behind you.
+    
+    Right before the corner you notice a graffiti with the text: if(currentPlace === 2) {useShortcut()}.`,
+    options: [
+      {
+        text: `You open the console and call the function useShortcut().`,
+        nextText: 22,
+      },
+    ],
+  },
+  {
+    id: 68,
+    text: `You see that Arika is the only participant ahead of you and now has a huge advantage. The rest of the race seems strangely mundane to you. All the obstacles are already well-known and nothing new happens. You easily avoid traps and Shrike’s blades and finish second.
+
+    For a moment, just before the finish line you see some glitching to the side of you which looks like Deo’s face and words “Next time maybe”. But it quickly disappears and looks like your UI has malware. Could it be the old man’s hack?
+
+    You stop thinking about it and see that Arika is waiting for you at the finish line.`,
+    options: [
+      {
+        text: `“Congrats. Nice bike you’ve made there.”`,
+        nextText: 51,
+      },
+    ],
+  },
+  {
+    id: 69,
+    text: `You jump out of the shortcut in front of Arika and continue the race up to the finish line.
+
+    Arika’s character, you just noticed it, looks exactly the same as you saw her before the arena. Seems that she’s using the same appearance for her character. For those who want to spend some extra money on cosmetics it is possible to buy a skin and then your arena character will look like your character in ZerOne (but you still need to play with one of the suggested characters, only the appearance will be different). It’s strange though, as lower levels people rarely spend their money on such things.
+    
+    What is also strange is the look on Arika’s face. Seems like she’s disappointed.
+    
+    You wait for her at the finish line. Arika drives to you. - “Listen, I know what you did there and it’s ok, but didn’t you get at least a bit curious?” - She sighs. - “Deo would’ve hated me for doing that, but who cares now.” - She sees your questioning expression and adds. - “Yeah, I knew him as well. In fact, we used to work together. But it’s a long story for another time. For now let me give you one last chance to replay the race. Well, if you want it of course.”
+    
+    She gives you an old video cassette with a yellow sticker that shows a rewind sign.`,
+    options: [
+      {
+        text: `Take the cassette.`,
+        nextText: 22,
+      },
+      {
+        text: `“Nah, I’ll pass. First place is all I need!”`,
+        nextText: 70
+      },
+    ],
+  },
+  {
+    id: 70,
+    text: `Arika frowns, shrugs and then her character starts melting and disappearing. When she’s almost gone you hear her saying. - “I still hope Deo was right about you.”
+
+    You think about these words for a little but then decide to ignore them. After all, you’ve finally won the Writer’s Fight. The day has come and it is yours.
+    
+    Is it though? Is it truly a victory or just some cheating? Aren’t you curious to find out?`,
+    options: [
+      {
+        text: `Wanna rerun your story?`,
+        nextText: 1,
+      },
+    ],
+  },
+  {
+    id: 0,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 0,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 0,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 0,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
       },
     ],
   },

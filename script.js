@@ -58,13 +58,13 @@ const textNodes = [
     
     Currently manual labor has ceased to exist. The Builders Council controls the robots production and writers guilds compete for each sector where robots are being used. Coders manage their work, fix bugs and develop new features. However, the need for it is significantly less than the population numbers. Every writer's guild is constantly full and even within them only the best ones manage to stay and continue working there.
     
-    Those who are not able to work in the robot industry search for various sources of income in zerOne. The most popular ones are the Writer’s Fights. These are virtual fighting arenas where coders need to create artificial characters from scratch during the match. These characters then fight each other in virtual space. Participants call themselves poets. Mostly because for the majority each fight is the last frontier between the lower and higher tower’s levels. They call it the Last Song. Sometimes you sing it before getting on the previous level and sometimes before getting on the next one.
+    Those who are not able to work in the robot industry search for various sources of income in zerOne. The most popular ones are the Writers Fights. These are virtual fighting arenas where coders need to create artificial characters from scratch during the match. These characters then fight each other in virtual space. Participants call themselves poets. Mostly because for the majority each fight is the last frontier between the lower and higher tower’s levels. They call it the Last Song. Sometimes you sing it before getting on the previous level and sometimes before getting on the next one.
     
     You are Soai, one of the poets. It wasn’t your choice to become one, it was a necessity.
 
     The tower where you live is called the Bridge. It is divided into five levels. You are on the second one. One level above the one where you won’t live long and one level below the one which is a border between the higher and lower societies. Each level is massive and includes many tiers with resident areas, work stations, stores, food places, etc.
     
-    You’ve managed to stay on that level for a while but also are not able to move higher. Your performance during the Writer’s Fights is mediocre but you don’t lose hope to get good.`,
+    You’ve managed to stay on that level for a while but also are not able to move higher. Your performance during the Writers Fights is mediocre but you don’t lose hope to get good.`,
     options: [
       {
         text: `Begin (dark and realistic)`,
@@ -80,7 +80,7 @@ const textNodes = [
     id: 2,
     text: `Today is just another day of your second level life in the Bridge. You woke up in your life-capsule, which is a tiny container where you live. By the press of a button your bed transformed into a small table with a chair. You sat there, ate your tiny portion of the daily ration and then tapped yourself on the left and right temples to turn on a VR-implant and log into zerOne.
 
-    In the virtual Bridge you left your capsule and looked around thinking where to go. In the evening you take part in the local Writer’s Fight.
+    In the virtual Bridge you left your capsule and looked around thinking where to go. In the evening you take part in the local Writers Fight.
     
     You think where you want to go.`,
     options: [
@@ -210,7 +210,7 @@ const textNodes = [
     id: 10,
     text: `Una nods. - “You do you. Ask Nnif to check your brains as well. She might help you with some temp files deletion.” - He smiles. - “Take care my friend.”
 
-    You go out and head over to Dixie, an upgrades shop located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writer’s Fights. Modifications are limited during the arena match, but still can be used to some extent.
+    You go out and head over to Dixie, an upgrades shop located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writers Fights. Modifications are limited during the arena match, but still can be used to some extent.
 
     Near the entrance to the shop you see a writing on the wall - “You can’t flatline the Flatline!”. Your vision slightly glitches when you pass by it. Happens every time though. It’s like a greeting to the shop. You go inside and see a tall woman wearing huge goggles with half a skull shaved and the other half’s hair painted bright green. The shaven part also has a tattoo of an ice ax. She notices you but makes a gesture to wait while she is dealing with another customer (who is not present, she’s talking to him through her implant).
 
@@ -380,7 +380,7 @@ const textNodes = [
     
     You and other participants are gathering right in front of the screen. Arika is standing not far from you. Once the race starts the participants stay in the current position and get control over the chosen characters that will appear right on the start line. Green lines disappear from the giant monitor and now it has a countdown running from -1 to 8. On 8 the race begins.
     
-    Suddenly you see that timer jumped to 8 straight away and the moment you got control over Kassad a player to your right, a gnome with a giant mechanic arm, hit you in the head with a steam-hummer. Your character gets stunned for 10 seconds and its HP reduces for 10 points. Then, a moment later, the visual changes and you realize that Event Horizon just showed you the near future prediction. The race is still about to start and the countdown just went to 7.
+    Suddenly you see that timer jumped to 8 straight away and the moment you got control over Kassad a player to your right, a gnome with a giant mechanical arm, hit you in the head with a steam-hummer. Your character gets stunned for 10 seconds and its HP reduces for 10 points. Then, a moment later, the visual changes and you realize that Event Horizon just showed you the near future prediction. The race is still about to start and the countdown just went to 7.
     
     8. The race starts.`,
     options: [
@@ -389,14 +389,14 @@ const textNodes = [
         nextText: 21,
       },
       {
-        text: `Program Kassad to shoot a few rounds to the gnome’s mechanic arm, then rush forward.`,
+        text: `Program Kassad to shoot a few rounds to the gnome’s mechanical arm, then rush forward.`,
         nextText: 67,
       },
     ],
   },
   {
     id: 21,
-    text: `Your character moves to the side and the mechanic arm doesn’t reach him. Gnome didn’t expect that and the arm keeps moving by inertia making him hit the ground and get stunned instead. You keep moving and enter the race area.
+    text: `Your character moves to the side and the mechanical arm doesn’t reach him. Gnome didn’t expect that and the arm keeps moving by inertia making him hit the ground and get stunned instead. You keep moving and enter the race area.
 
     Arika appears near you on the red futuristic bike. She winks. - “Cheers, Soai-boy!” - Then she drives forward and disappears behind the corner of the track.
     
@@ -444,17 +444,25 @@ const textNodes = [
         text: `“Old man!? How did you manage to get here? And what is happening? Have you been waiting for me to come?” - Questions keep pouring out of you like water from the bottle turned upside down. You have more but need a moment to catch your breath.`,
         nextText: 24,
       },
+      {
+        text: `“White rabbit and Cheshire cat? Seriously? Couldn’t come up with something more creative? What am I, Soai in boredomland?”`,
+        nextText: 73,
+      },
     ],
   },
   {
     id: 24,
-    text: `Deo smiles. - “Not so fast young one, we have some time to spend here. As for the questions you asked so far: I’ve been here since you started taking part in the Writer’s Fights. What is happening? Well, you’ve entered the rabbit hole that I built a very long time ago. It is my secret place to hide from the virtuality of ZerOne in… let’s say another layer of the virtual space. And, yes, I have been waiting for you till this moment.”
+    text: `Deo smiles. - “Not so fast young one, we have some time to spend here. As for the questions you asked so far: I’ve been here since you started taking part in the Writers Fights. What is happening? Well, you’ve entered the rabbit hole that I built a very long time ago. It is my secret place to hide from the virtuality of ZerOne in… let’s say another layer of the virtual space. And, yes, I have been waiting for you till this moment.”
 
     The image of the smiling mouth finally disappeared and after a brief moment of showing thousands 404 errors the sphere walls in front of you showed Deo. He looks different now. Younger, without strange eyes-implants and robe. Instead he wears a stylish costume (of the same blue color though) and vintage glasses. He looks at you as if waiting for a very important question to come.`,
     options: [
       {
         text: `“Are you real, old man? Or is it a part of the arena challenge, an easter egg or some kind of a secret level? I’ve never seen you on our level or during the previous arenas.”`,
         nextText: 25,
+      },
+      {
+        text: `“Honestly, I just want to win this race. Any chance you can port me to the finish line?”`,
+        nextText: 74,
       },
     ],
   },
@@ -547,15 +555,19 @@ const textNodes = [
     text: `And that’s what you’ve come up to so far. A free spirit of AI living in the artificial world where humans escape while their real one is on the brink of extinction. Your creator is gone and your friends don’t know that you are not real in their real world. Some strings were cut off, others got attached. Can you do something about it? Only time will tell. As long as there will be any time left for everyone.`,
     options: [
       {
-        text: `The end.`,
+        text: `The end (unless you want to rerun your path)`,
         nextText: 1,
+      },
+      {
+        text: `The end (unless you want to visit the rabbit hole again)`,
+        nextText: 23,
       },
     ],
   },
   // Other initial path (Dixie).
   {
     id: 34,
-    text: `You go out and head over to Dixie which is located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writer’s Fights. Modifications are limited during the arena match, but still can be used to some extent.
+    text: `You go out and head over to Dixie which is located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writers Fights. Modifications are limited during the arena match, but still can be used to some extent.
 
     Near the entrance to the shop you see a writing on the wall - “You can’t flatline the Flatline!”. Your vision slightly glitches when you pass by it. Happens every time though. It’s like a greeting to the shop. You go inside and see a tall woman wearing huge goggles with half a skull shaved and the other half’s hair painted bright green. The shaven part also has a tattoo of an ice ax.
     
@@ -776,7 +788,7 @@ const textNodes = [
     The race begins.`,
     options: [
       {
-        text: `Program Kassad to shoot a few rounds to the gnome’s mechanic arm, then rush forward.`,
+        text: `Program Kassad to shoot a few rounds to the gnome’s mechanical arm, then rush forward.`,
         nextText: 50,
       },
     ],
@@ -793,16 +805,24 @@ const textNodes = [
         text: `“Congrats. Nice bike you’ve made there.”`,
         nextText: 51,
       },
+      {
+        text: `“Not bad. Do you always use the same appearance during the arena?”`,
+        nextText: 72,
+      },
     ],
   },
   {
     id: 51,
-    text: `Arika smiles. - “Thanks! You’ve done a good job as well! Don’t worry, I’m sure you’ll be the first one soon. Just try again. You know, maybe some different choices along the way may lead to a different outcome.” - She winks at you, then to your surprise gives you a hug. - “Bye-bye, Soai-boy, I’ll see you when I see you.” - With that her character falls into pixels and disappears.
+    text: `Arika smiles. - “Thanks! I call her Choochoo. My favorite ride. You’ve done a good job as well! Don’t worry, I’m sure you’ll be the first one soon. Just try again. You know, maybe some different choices along the way may lead to a different outcome.” - She winks at you, then to your surprise gives you a hug. - “Bye-bye, Soai-boy, I’ll see you when I see you.” - With that her character falls into pixels and disappears.
 
     And that was another day in the Bridge for you. Not too much, not too little. Well, at least you got your second place today. And maybe tomorrow is a better day.`,
     options: [
       {
         text: `Wanna rerun your story?`,
+        nextText: 1,
+      },
+      {
+        text: `Common, one more time!`,
         nextText: 1,
       },
     ],
@@ -812,7 +832,7 @@ const textNodes = [
     id: 52,
     text: `Una makes big eyes. - “Never! The world can fall apart and be destroyed by the AI that turns all humans into charging blocks, but even then I’ll find a way to get some juicy meat for my Ckiw!” - He laughs. - “Cheers my friend, do make me proud today!” - With these words he goes to the other part of the bar to chat with customers that start coming.
     
-    You go out and head over to Dixie, an upgrades shop located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writer’s Fights. Modifications are limited during the arena match, but still can be used to some extent.
+    You go out and head over to Dixie, an upgrades shop located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writers Fights. Modifications are limited during the arena match, but still can be used to some extent.
 
     Near the entrance to the shop you see a writing on the wall - “You can’t flatline the Flatline!”. Your vision slightly glitches when you pass by it. Happens every time though. It’s like a greeting to the shop. You go inside and see a tall woman wearing huge goggles with half a skull shaved and the other half’s hair painted bright green. The shaven part also has a tattoo of an ice ax. She notices you but makes a gesture to wait while she is dealing with another customer (who is not present, she’s talking to him through her implant).
 
@@ -832,7 +852,7 @@ const textNodes = [
     id: 53,
     text: `Una starts laughing. - “Nnif with a grandpa!? Ha! Can you imagine that? Oh boy, do tell her about it. I’m sure she’ll be happy to hear it and will show you some cute pics from her childhood. Hah!” - He keeps laughing. - “Sometimes I think that girl just appeared in this world without any prerequisites if you know what I mean. So tough she is. But who am I to tell you what to do?” - Still giggling he just waves at you. - “All right, get outta here already, I have some clients to serve.”
     
-    You just grin at Una, go out and head over to Dixie, an upgrades shop located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writer’s Fights. Modifications are limited during the arena match, but still can be used to some extent.
+    You just grin at Una, go out and head over to Dixie, an upgrades shop located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writers Fights. Modifications are limited during the arena match, but still can be used to some extent.
 
     Near the entrance to the shop you see a writing on the wall - “You can’t flatline the Flatline!”. Your vision slightly glitches when you pass by it. Happens every time though. It’s like a greeting to the shop. You go inside and see a tall woman wearing huge goggles with half a skull shaved and the other half’s hair painted bright green. The shaven part also has a tattoo of an ice ax. She notices you but makes a gesture to wait while she is dealing with another customer (who is not present, she’s talking to him through her implant).
 
@@ -868,7 +888,7 @@ const textNodes = [
 
     *** Who are we kidding? Your apartment is a tiny capsule with just enough space to sleep and your food is simply a gray mass of some daily-needed chemical elements. You only need it for these two tasks as everything else is happening in the virtual world. No rainbow beginnings for ya, just continue the story! ***
     
-    In the virtual Bridge you left your apartment and looked around thinking where to go. In the evening you take part in the local Writer’s Fight.
+    In the virtual Bridge you left your apartment and looked around thinking where to go. In the evening you take part in the local Writers Fight.
     
     You think where you want to go.`,
     options: [
@@ -965,7 +985,7 @@ const textNodes = [
         nextText: 18,
       },
       {
-        text: `“Hm, I thought we'd seen each other a couple of days ago, no? Man, these Writer’s Fights really start taking all my time. Maybe it wasn’t just a couple of days.”`,
+        text: `“Hm, I thought we'd seen each other a couple of days ago, no? Man, these Writers Fights really start taking all my time. Maybe it wasn’t just a couple of days.”`,
         nextText: 62,
       },
     ],
@@ -1042,13 +1062,17 @@ const textNodes = [
     
     You and other participants are gathering right in front of the screen. Arika is standing not far from you. Once the race starts the participants stay in the current position and get control over the chosen characters that will appear right on the start line. Green lines disappear from the giant monitor and now it has a countdown running from -1 to 8. On 8 the race begins.
     
-    Suddenly you see that timer jumped to 8 straight away and the moment you got control over Masteen a player to your right, a gnome with a giant mechanic arm, hit you in the head with a steam-hummer. Your character gets stunned for 10 seconds and its HP reduces for 10 points. Then, a moment later, the visual changes and you realize that Event Horizon just showed you the near future prediction. The race is still about to start and the countdown just went to 7.
+    Suddenly you see that timer jumped to 8 straight away and the moment you got control over Masteen a player to your right, a gnome with a giant mechanical arm, hit you in the head with a steam-hummer. Your character gets stunned for 10 seconds and its HP reduces for 10 points. Then, a moment later, the visual changes and you realize that Event Horizon just showed you the near future prediction. The race is still about to start and the countdown just went to 7.
     
     8. The race starts.`,
     options: [
       {
         text: `You program Masteen to evade gnome’s strike, ignore him and jump into the screen.`,
         nextText: 21,
+      },
+      {
+        text: `Program Masteen to use his strange cube.`,
+        nextText: 71,
       },
     ],
   },
@@ -1066,6 +1090,10 @@ const textNodes = [
         text: `You open the console and call the function useShortcut().`,
         nextText: 22,
       },
+      {
+        text: `Ignore the graffiti and keep moving forward.`,
+        nextText: 68,
+      },
     ],
   },
   {
@@ -1079,6 +1107,10 @@ const textNodes = [
       {
         text: `“Congrats. Nice bike you’ve made there.”`,
         nextText: 51,
+      },
+      {
+        text: `“Not bad. Do you always use the same appearance during the arena?”`,
+        nextText: 72,
       },
     ],
   },
@@ -1100,7 +1132,7 @@ const textNodes = [
       },
       {
         text: `“Nah, I’ll pass. First place is all I need!”`,
-        nextText: 70
+        nextText: 70,
       },
     ],
   },
@@ -1108,53 +1140,83 @@ const textNodes = [
     id: 70,
     text: `Arika frowns, shrugs and then her character starts melting and disappearing. When she’s almost gone you hear her saying. - “I still hope Deo was right about you.”
 
-    You think about these words for a little but then decide to ignore them. After all, you’ve finally won the Writer’s Fight. The day has come and it is yours.
+    You think about these words for a little but then decide to ignore them. After all, you’ve finally won the Writers Fight. The day has come and it is yours.
     
     Is it though? Is it truly a victory or just some cheating? Aren’t you curious to find out?`,
     options: [
       {
-        text: `Wanna rerun your story?`,
+        text: `Be kind, rewind.`,
+        nextText: 1,
+      },
+      {
+        text: `Let's do it again.`,
         nextText: 1,
       },
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 71,
+    text: `Masteen takes out the cube, makes some strange manipulations with it, then, the moment the gnome tries to hit you, it suddenly opens and the mechanical arm goes right into it. The cube closes, cuts the whole arm and stuns the gnome for a few seconds. Masteen rushes forward.
+
+    Arika appears near you on the red futuristic bike. She mocks you. - “Wow, some brutality you show us today mister. Or was it… cubality?” - Then she drives forward and disappears behind the corner of the track.
+        
+    You saw a labyrinth-like route ahead of you with many turns and unknown areas. It’s high time to move quickly as other participants start appearing behind you.
+        
+    Right before the corner you notice a graffiti with the text: if(currentPlace === 2) {useShortcut()}.`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `You open the console and call the function useShortcut().`,
+        nextText: 22,
+      },
+      {
+        text: `Ignore the graffiti and keep moving forward.`,
+        nextText: 68,
       },
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 72,
+    text: `Arika moves closer and whispers. - “Wanna know a secret? That’s how I look outside zerOne! Ok, fine, I don’t have yellow implants and pupils but the rest is identical. I’m one of those purists that are always the same in both worlds.” - She thinks about something for a second. - “Sorry, gotta go. But I’m sure we’ll meet again. You’ve done a good job today! I’m sure you’ll be the first one soon. Just try again. You know, maybe some different choices along the way may lead to a different outcome.” - She winks at you and pats you on the shoulder. - “Bye-bye, Soai-boy, I’ll see you when I see you.” - With that her character falls into pixels and disappears.
+
+    And that was another day in the Bridge for you. Not too much, not too little. Well, at least you got your second place today. And maybe tomorrow is a better day.”`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `Check if tomorrow is a better day.`,
+        nextText: 1,
+      },
+      {
+        text: `Let's reroll!`,
+        nextText: 1,
       },
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 73,
+    text: `Deo laughs. - “Says the boy who added himself a six pack and gorgeous haircut, looking straight out of the barber shop. You do realize that nutrition and lack of physical activities in the real world are not two things that correspond to that?” - He sighs. - “But youth may have dreams and hopes, I don’t judge you. So, let’s just consider this our little passion.
+
+    The image of the smiling mouth finally disappeared and after a brief moment of showing thousands 404 errors the sphere walls in front of you showed Deo. He looks different now. Younger, without strange eyes-implants and robe. Instead he wears a stylish costume (of the same blue color though) and vintage glasses. He looks at you as if waiting for a very important question to come.`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `“Are you real, old man? Or is it a part of the arena challenge, an easter egg or some kind of a secret level? I’ve never seen you on our level or during the previous arenas.”`,
+        nextText: 25,
+      },
+      {
+        text: `“Honestly, I just want to win this race. Any chance you can port me to the finish line?”`,
+        nextText: 74,
       },
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 74,
+    text: `Deo was silent for a moment. - “Is that all that you want Soai? All that keeps you going is the desire to win? Aren’t you curious to figure out what’s behind it? What if I told you that you could become something more than you are right now? Would you still decline and continue your endless Writers Fights? Fine, let me give you a choice.” - Image on the walls changes and you see a door leading back to the arena. If you jump there you’ll be right in front of Arika and take the first place.`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `Go through the door. - “Cheers, old one! You’ve finally made yourself useful. Appreciate your support and blah-blah-blah…”`,
+        nextText: 69,
+      },
+      {
+        text: `Refuse to use the door. - “Ok, I’ll play along. Who are you? Just part of Shrike's code or a real human being?”`,
+        nextText: 25,
       },
     ],
   },

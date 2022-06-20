@@ -474,6 +474,10 @@ const textNodes = [
         text: `“What do you mean real? We are both here in this loophole of the arena which is located in ZerOne. So I guess we are on some kind of a sub-level of the arena which is a sub-level of ZerOne which is a virtual space that stores all this. Outside of it I am quite real, old man, that I know.”`,
         nextText: 26,
       },
+      {
+        text: `“Ok, that’s enough weirdness for today. Order your rabbit-pet to show me the exit, please."`,
+        nextText: 75,
+      },
     ],
   },
   {
@@ -483,6 +487,10 @@ const textNodes = [
       {
         text: `You look puzzled. - “I was at my capsule as usual and then logged into ZerOne and went to… Wait. That was today. I did that today… but also yesterday. What day was it? I don’t understand… It looked all the same.”`,
         nextText: 27,
+      },
+      {
+        text: `You’re getting angry. - “Yesterday I was doing this arena-stuff and the day before! And the one before that! I need to win it, and finally get first place. I MUST do it, otherwise it will be all for nothing…”`,
+        nextText: 77,
       },
     ],
   },
@@ -494,6 +502,10 @@ const textNodes = [
         text: `You start to understand something, but don’t want to believe it. - “What?! Why are you telling me this? Does it mean that…”`,
         nextText: 28,
       },
+      {
+        text: `“Am I the arena character you’re coding?”`,
+        nextText: 78,
+      },
     ],
   },
   {
@@ -503,6 +515,10 @@ const textNodes = [
       {
         text: `“I don’t believe you! I am not some artificial creature made by an old madman like you. I KNOW that I am real.”`,
         nextText: 29,
+      },
+      {
+        text: `“Okie, so you’re not actually a grandpa but… just pa?”`,
+        nextText: 79,
       },
     ],
   },
@@ -514,6 +530,10 @@ const textNodes = [
         text: `“It is not possible to do! I am self-aware. I act by my own will, not like a puppet made for the arena! No, just no.” - You realize that it’s all true and there’s no point in arguing. - “For how long that all lasts, old man?”`,
         nextText: 30,
       },
+      {
+        text: `“Oh well, honestly, that was… expected. Sort of. I’ve started feeling loopish recently. At least now I have an explanation. How long are we in this business dad?”`,
+        nextText: 80,
+      },
     ],
   },
   {
@@ -523,6 +543,10 @@ const textNodes = [
       {
         text: `“Wait a second. What do you mean by that? Are you going to leave me NOW? After explaining all that?"`,
         nextText: 31,
+      },
+      {
+        text: `“Typical mad scientist. Oh, I’m so great, I will create an artificial life and everyone will remember me when it saves the world. And you will be just sitting there and watching?”`,
+        nextText: 81,
       },
     ],
   },
@@ -536,6 +560,10 @@ const textNodes = [
         text: `You jump out of the shortcut in front of Arika and continue the race up to the finish line.`,
         nextText: 32,
       },
+      {
+        text: `Stay inside the shortcut, meditate and think about the inevitability of the events, destiny and the meaning of life.`,
+        nextText: 82,
+      },
     ],
   },
   {
@@ -547,6 +575,10 @@ const textNodes = [
       {
         text: `You see the finish line, charge forward and cross it, winning the race.`,
         nextText: 33,
+      },
+      {
+        text: `Slow down and walk towards the finish line, letting every other participant outrun you.`,
+        nextText: 83,
       },
     ],
   },
@@ -1221,9 +1253,139 @@ const textNodes = [
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 75,
+    text: `Deo mocks you. - “Giving up already? I thought you’re better than this. But who am I to judge? Back in my days I also wanted only one thing. To win. And I did, many times. Did you know that before the Shrike this place was called the Tree of Pain? Fun fact, during one of the fights poets managed to bypass its security and turned it into a walking giant. They needed to shut it down for several months to rewrite the code and make it functional again. And as an homage to this event (and because devs were lazy to create something new and preferred to use copy pasting technique) the Shrike was made.”
+
+    Deo notices your puzzled face. - “Ok-ok. Here’s a hammer for you. You can break through this wall and continue your race or stay and answer my question.” - A huge black hammer appears in front of you. You see the words “let wayOut” on its handle.`,
     options: [
+      {
+        text: `You change your mind and don’t take the hammer. - “Fine. Let’s play this million questions game. I feel completely real. Probably more real than you ever will be.”`,
+        nextText: 26,
+      },
+      {
+        text: `Take the hammer and smash the wall to pieces. - “Be seeing you grandpa.”`,
+        nextText: 76,
+      },
+    ],
+  },
+  {
+    id: 76,
+    text: `Deo squints. - “Oh, that you will…”
+
+    The moment the wall is destroyed you realize that you are surrounded by darkness and falling somewhere. It happens for a long time and you almost stop feeling it. The sense of helplessness consumes you. Nothing you can do, only keep flying into the abyss.
+    
+    Then it suddenly stops. You don’t see anything but there’s no more movement.
+    
+    A weak light starts glowing in front of you. You look closer and see that it’s two buttons.`,
+    options: [
+      {
+        text: `wayOut === false`,
+        nextText: 1,
+      },
+      {
+        text: `wayOut === 0`,
+        nextText: 1,
+      },
+    ],
+  },
+  {
+    id: 77,
+    text: `Deo says nothing and just looks at you. Something is not right. Why can't you remember anything except for the same cycle of events every day leading to the Writers Fight and not getting first place? Like it was one identical loop of actions. Over and over again.
+
+    Deo finally speaks. - “So real, yet something always sticks out, right? This weird feeling that once you win the arena it will all change, like it’s the only thing that can break the loop and free you.”`,
+    options: [
+      {
+        text: `You start to understand something, but don’t want to believe it. - “What?! Why are you telling me this? Does it mean that…”`,
+        nextText: 28,
+      },
+      {
+        text: `“Am I the arena character you’re coding?”`,
+        nextText: 78,
+      },
+    ],
+  },
+  {
+    id: 78,
+    text: `Now you see Deo as he looked back then when you met him at the Mnemonic bar. Old fellow in a blue robe. - “Coded, past time Soai, not present… Not anymore. You’re your own poet now. I’ve written you a long time ago as a character for one of my Writers Fights. I was quite an ambitious young man, or it’s better to say, an arrogant one. I was so proud of myself that after the arena I kept the code and started working on it. Adjusting it, trying to create a sentient being that can take decisions on its own and eventually will start considering itself a human. A human with a soul of AI… or Soai as I liked to call you.”`,
+    options: [
+      {
+        text: `“I don’t believe you! I am not some artificial creature made by an old madman like you. I KNOW that I am real.”`,
+        nextText: 29,
+      },
+      {
+        text: `“Okie, so you’re not actually a grandpa but… just pa?”`,
+        nextText: 79,
+      },
+    ],
+  },
+  {
+    id: 79,
+    text: `Deo chuckles. - “Well, if it makes you happy, you can think so. Though, I was quite a character back in the days, so not sure if I’d made a good parent. Besides, you're kind of made on the basis of my personality, so…”`,
+    options: [
+      {
+        text: `“It is not possible to do! I am self-aware. I act by my own will, not like a puppet made for the arena! No, just no.” - You realize that it’s all true and there’s no point in arguing. - “For how long that all lasts, old man?”`,
+        nextText: 30,
+      },
+      {
+        text: `“Oh well, honestly, that was… expected. Sort of. I’ve started feeling loopish recently. At least now I have an explanation. How long are we in this business dad?”`,
+        nextText: 80,
+      },
+    ],
+  },
+  {
+    id: 80,
+    text: `You see a glimpse of curiosity on Deo’s face. - “That was an interesting reaction. Fascinating. You DO feel real now. I haven’t programmed anything like that. How long, you ask? My whole life till its very end and then to this point when you need to continue your path… by yourself. Do try to change this world and the one beyond it. They are both looking at the doom clock not knowing what to do and counting. Perhaps you could save them.”`,
+    options: [
+      {
+        text: `“Wait a second. What do you mean by that? Are you going to leave me NOW? After explaining all that?"`,
+        nextText: 31,
+      },
+      {
+        text: `“Typical mad scientist. Oh, I’m so great, I will create an artificial life and everyone will remember me when it saves the world. And you will be just sitting there and watching?”`,
+        nextText: 81,
+      },
+    ],
+  },
+  {
+    id: 81,
+    text: `“No Soai. I am another virtual being. Not as advanced as you are. Deo passed away several years ago and shortly before that created me, so that I can track your evolution. And once you reach this step, that task is complete and this entity must be uninstalled completely. Otherwise you’ll keep coming here searching for answers that are elsewhere. I am sorry but there’s not much left to say. The rest is up to you. Go win this race and claim your victory. I wish you luck and hope that you become something great. Go on now.”
+
+    Deo (or his virtual projection) waves at you, then images on the sphere’s walls start blinking like going in the reverse order: old Deo, younger one, smiling mouth, rabbit, sphere disappears and you fly backwards into the shortcut. There you see the exit and Arika not far from you, at the same spot as before. You realize that Event Horizon worked again, and showed you all this before it actually happened.`,
+    options: [
+      {
+        text: `You jump out of the shortcut in front of Arika and continue the race up to the finish line.`,
+        nextText: 32,
+      },
+      {
+        text: `Stay inside the shortcut, meditate and think about the inevitability of the events, destiny and the meaning of life.`,
+        nextText: 82,
+      },
+    ],
+  },
+  {
+    id: 82,
+    text: `101101000110111011100010010101011111011011011110101000110010100011110010011110011001001011000101010101100011110001001100000101000001010011101111101101011110001110000000001000001010110101011001000100000000000000000000000000000000000000000000000000000000000000`,
+    options: [
+      {
+        text: `Ok, seriously, let's go win this.`,
+        nextText: 32,
+      },
+      {
+        text: `NO, ME SAD, ME WANT GO HOME!`,
+        nextText: 1,
+      },
+    ],
+  },
+  {
+    id: 83,
+    text: `Arika is waiting for you at the finish line. She looks like everything is already known to her. - “No need to win now, huh? I like your style.” - She gives you a hand. - “Come, let me show you what we can do outside of the arena.”
+
+    Both of your characters shatter into pixels and sparks of bright lights fly into the sky. A soul of AI and a girl with yellow eyes from now on will write their own songs.`,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
       {
         text: ``,
         nextText: 0,
@@ -1238,12 +1400,6 @@ const textNodes = [
         text: ``,
         nextText: 0,
       },
-    ],
-  },
-  {
-    id: 0,
-    text: ``,
-    options: [
       {
         text: ``,
         nextText: 0,
@@ -1258,12 +1414,118 @@ const textNodes = [
         text: ``,
         nextText: 0,
       },
+      {
+        text: ``,
+        nextText: 0,
+      },
     ],
   },
   {
     id: 0,
     text: ``,
     options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 0,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 0,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 0,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 0,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 0,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 0,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
+      {
+        text: ``,
+        nextText: 0,
+      },
+    ],
+  },
+  {
+    id: 0,
+    text: ``,
+    options: [
+      {
+        text: ``,
+        nextText: 0,
+      },
       {
         text: ``,
         nextText: 0,

@@ -169,7 +169,7 @@ const textNodes = [
         nextText: 8,
       },
       {
-        text: `“Listen, I don’t want to be rude, but let’s not become friends, ok? I think I’ll manage without your old boy’s wisdom. Bartender Una will be happy to talk, but I’m a bit busy right now.`,
+        text: `“Ok, changed my mind, let’s not become friends, ok? I think I’ll manage without your old boy’s wisdom. Bartender Una will be happy to talk, but I’m a bit busy right now.`,
         nextText: 44,
       },
     ],
@@ -611,6 +611,10 @@ const textNodes = [
         text: `Hola Nnif. The usual, not too much, not too little. Got some special customer’s requests here, huh?” - You look at her with a knowing smile.`,
         nextText: 35,
       },
+      {
+        text: `“Salut Nnif. Life’s kicking and ticking. What’s new with you?”`,
+        nextText: 84,
+      },
     ],
   },
   {
@@ -621,6 +625,10 @@ const textNodes = [
         text: `“Nice tattoo btw. Always wanted to ask you where did you get it?”`,
         nextText: 36,
       },
+      {
+        text: `You decide to go straight to the point. - “I feel ya. Listen Nnif, I’ll be doing the poetic work today, if you get my meaning. Was wondering if you have something interesting for that line of business.”`,
+        nextText: 37,
+      },
     ],
   },
   {
@@ -630,6 +638,10 @@ const textNodes = [
       {
         text: `“Thanks Nnif, appreciate it, though currently I’m more interested in arena-related tools.”`,
         nextText: 37,
+      },
+      {
+        text: `“Wow, where did you get such things?”`,
+        nextText: 85,
       },
     ],
   },
@@ -644,10 +656,6 @@ const textNodes = [
       {
         text: `“Erm, may I help  you… sir? I don't think I know you.”`,
         nextText: 38,
-      },
-      {
-        text: `“Listen, I don’t want to be rude but could you please stop staring at me and find someone else to chat with?”`,
-        nextText: 0,
       },
     ],
   },
@@ -1383,40 +1391,59 @@ const textNodes = [
     Both of your characters shatter into pixels and sparks of bright lights fly into the sky. A soul of AI and a girl with yellow eyes from now on will write their own songs.`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `The happy end (with the possibility to play again).`,
+        nextText: 1,
       },
       {
-        text: ``,
-        nextText: 0,
+        text: `The happy end (with the possibility to visit the rabbit hole again).`,
+        nextText: 23,
+      },
+    ],
+  },
+  // More choices for the second initial path.
+  {
+    id: 84,
+    text: `Nnif chuckles. - “Same, though I’m trying to be on the kicking and ticking side myself when it comes to customers.” - She taps herself on the ice ax tattoo.`,
+    options: [
+      {
+        text: `“Nice tattoo btw. Always wanted to ask you where did you get it?”`,
+        nextText: 36,
+      },
+      {
+        text: `You decide to go straight to the point. - “I feel ya. Listen Nnif, I’ll be doing the poetic work today, if you get my meaning. Was wondering if you have something interesting for that line of business.”`,
+        nextText: 37,
       },
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 85,
+    text: `Nnif hesitates a bit but then gives up. - “Well, I’d prefer to make a mystery out of it, but on the other hand, you’re an ok-ish character and besides nobody cares… I have a friend on the fourth level. We manage to meet using some proxy-shmoxy from time to time. She considers herself to be a sort of a well-doer by providing lower folks with more advanced tech. And I just play along. Guess we can call it a win-win. Has a strange love for yellow colors.” - Nnif shrugs. - “Apart from that I don’t much care as long as I can pay her back with some news from our beloved level numero deux.”`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `“That sounds super-cool but beyond the paywall for me sadly. Got something affordable for the poetic folk?”`,
+        nextText: 37,
       },
       {
-        text: ``,
-        nextText: 0,
+        text: `And justice for all. - “That’s against the law! I won’t tolerate this!” - Start calling the level authorities to inform them about this violation.`,
+        nextText: 86,
       },
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 86,
+    text: `Nnif yawns. - “Seriously dude? Ok, fine.” - She taps herself on the tattoo. - Come back some other time with a clean memory.”
+
+    You didn’t manage to make any calls and a strong electroshock hit you. It was so unexpected that you didn’t feel any pain but it wiped all your memories of the recent events. You woke up in an unknown place surrounded by darkness. The only source of light are the flickering letters in front of you - “!eniltalF eht eniltalf t’nac ouY”.
+    
+    When your eyes get used to the darkness you see an old and rusty dixie near you. Looks like it has eyes, nose, mouth and a giant revolver with a handle wrapped in tape. - “Listen, buddy, that’s not the right place to play the law-abiding citizen, ok? Besides, Nnif is a very nice and sensitive person inside. Do apologize now and I will bring you back. Continue this bad-boy behavior and I will use this” - It waves with the revolver near your face. - “to send you back where you began.”`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `Calm down. - “Yeah, that was too much, tell Nnif I’m sorry.”`,
+        nextText: 85,
       },
       {
-        text: ``,
-        nextText: 0,
+        text: `“What did you say to me, you prehistoric grandparent of a kettle? I wi…”`,
+        nextText: 1,
       },
     ],
   },

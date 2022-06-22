@@ -657,6 +657,10 @@ const textNodes = [
         text: `“Erm, may I help  you… sir? I don't think I know you.”`,
         nextText: 38,
       },
+      {
+        text: `“Listen, I don’t want to be rude but could you please stop staring at me and find someone else to chat with?”`,
+        nextText: 87,
+      },
     ],
   },
   {
@@ -1448,58 +1452,72 @@ const textNodes = [
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 87,
+    text: `Old man looks at you for a couple more seconds, then turns and walks away. - “Another time or place then. An interesting observation that was but sadly too soon.” - He continues murmuring something incomprehensible and you stop paying attention to him.
+    
+    Nnif comes back and looks disappointed. - “Listen, to be honest, I seem to be out of useful stuff. I could sell you some garbage tech, but let me save you some money and just refuse doing that. You’re better off without them. Otherwise it’ll look like doing some mining with a piece of tech instead of a pick. In theory you could do that but people who really need it won't appreciate that. And let me tell you a secret. For low-levels arenas upgrades don’t really matter. Just use your brains.” - She thinks about it for a second. - “I do know a couple of new poets and pretty sure you haven’t seen them before…”
+
+    She continues after a pause. - “There’s a fella with the name Moor Cow. Most likely will be playing something gnomish. Just go ahead and do a preventive strike on him. My gut tells me a dude like this will want to do something shady from the start.
+
+    And there’s a new girl, Arika, I think her name. Looks strangely familiar but whatever. This one I don’t know well, but I heard that some of the rich folk have another crazy new trend - paying lots of creds to travel between towers and levels. My bet, she’s one of them. Ignore stopping that one, she’ll be using the most advanced tech I guarantee. Just try to outrun her. Maybe you’ll manage, but sadly I doubt that.
+
+    That’s all I’ve got.”`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `“I understand. Thanks for the advice Nnif. Always appreciated your straightforwardness.” - You decide to go directly to the arena and wait for it to start there.`,
+        nextText: 47,
       },
       {
-        text: ``,
-        nextText: 0,
+        text: `“Cheers Nnif. You rock, as always. Guess I have some time, gonna hang out at my place. Wish you a pleasant customer-relationships.”`,
+        nextText: 88,
       },
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 88,
+    text: `Nnif chuckles. - “Yeah, right, one thing that’s never gonna happen. Be seeing you buddy.”
+    
+    You go to your virtual apartment, but halfway to it bump into your old buddy - Sane Snacks. A very big fellow, always wearing some strange clothes, consisted of plastic plates, worn off rugs and some metal pieces of unknown origin. His voice roars. - “Soai! My favorite friend! Come here!” - Two giant arms hug you. - “What’s new with you? I haven’t seen you for quite some time. Thought you went down to the first level.”
+    
+    This seems strange to you, you’ve a feeling that quite recently you meet with Sane but you can’t remember why and when exactly.`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `Not really the best moment to talk. - “Ah well, been here and there. Just busy I guess. Listen, sorry for being harsh, but I’m a bit in a hurry, so catch up with you later, ok?” - Quickly go away and ignore Sane’s attempts to continue the conversation. Too much human relations for you for today. Go to the arena.`,
+        nextText: 47,
       },
       {
-        text: ``,
-        nextText: 0,
+        text: `“Hm, I thought we'd seen each other a couple of days ago, no? Man, these Writers Fights really start taking all my time. Maybe it wasn’t just a couple of days.”`,
+        nextText: 89,
       },
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 89,
+    text: `Sane has a worried expression on his face. - “No, Soai, last time we met, I invited you to play some “There and back again”. You decided to be a Mediocre boy and I was Valhalla’s chosen one. Then Una came and looked at us like we were two kids doing silly things. We then went to his favorite band’s show - Soundcore of mirror. Oh boy, I’ve spent too much there buying those useless cheers… But at least we had some fun, right?” - Sane notices that you don’t remember any of it. - “My friend, I advise you to stop spending so much time in the arena. All grind and no play makes you just a free-to-play, you know?”`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `“Yeah, right.” - You feel like wasting your time and decide to go to the arena finally. - “Afraid, I need to go now, pal. I feel ya, but today might be the day, so let’s talk again during the next board game encounter. Take care my wasteland friend.” - You wave to Sane and go away.`,
+        nextText: 47,
       },
       {
-        text: ``,
-        nextText: 0,
+        text: `“I’m kind of in a hurry, but we can keep talking if you wanna come along. What’s been up with you recently?”`,
+        nextText: 90,
       },
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 90,
+    text: `Sane sighs while walking with you. - “Ah, you know, not much. Always feel like I need some space, some desert to drive into, some engine screams and metal sounds in my ears. But here we are, sitting in our capsules and exiting them only to find ourselves in a virtual projection of the same tower. A more spacious one, yes, but still… a tower. Ever wanna see what the real Earth looks like down there? Sometimes I wonder how long I could hold there. We see only some distant sparks of light from here, coming from beneath the chemical clouds. Guess machines are doing some work down below. To keep towers running. But one day it will end, Soai. I see it… in the raindrops.”
+
+    This life-reassuring monologue lasts while you walk with Sane. Strange dude he is, Sane. A big bull with a roaring voice but very sensitive inside. He suddenly turns to you and his voice changes a bit, like it’s someone else talking through him. - “Would you make a different choice if you could, Soai? Are you happy with the path chosen? What if I can offer you this option? Would you accept it?”`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `“Nah, man, I’m good. The choice I’ve made is the path to take. I aim at finishing it.” - Pat Sane on the shoulder. - “One day I will meet you in Valhalla, but you know what we say to it, right? Not today.”`,
+        nextText: 47,
       },
       {
-        text: ``,
-        nextText: 0,
+        text: `Maybe he is right and it’s possible to start again. What would you choose then? - “Ok, Sane Snacks, I accept.”`,
+        nextText: 2,
       },
     ],
   },

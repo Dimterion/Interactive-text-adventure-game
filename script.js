@@ -671,6 +671,10 @@ const textNodes = [
         text: `“All right, grandpa, let’s hear it, you’ve got my attention.”`,
         nextText: 39,
       },
+      {
+        text: `“Ok, changed my mind, let’s not become friends, ok? I think I’ll manage without your old boy’s wisdom. Nnif who runs this shop might be ok with listening to you, but I’m a bit busy right now.`,
+        nextText: 87,
+      },
     ],
   },
   {
@@ -683,6 +687,10 @@ const textNodes = [
         text: `“Erm… There was a strange-looking old fellow here. He’s just left but before that asked me to tell you Deo says Hi.” - You described the man to Nnif.`,
         nextText: 40,
       },
+      {
+        text: `“Nah, just some weird folk pretending to be smart. Got anything useful for me?”`,
+        nextText: 91,
+      },
     ],
   },
   {
@@ -692,6 +700,10 @@ const textNodes = [
       {
         text: `“Why not? Hit me with all you’ve got, almighty tech expert. Cheating or no-cheating has alway been a foggy border for me.”`,
         nextText: 14,
+      },
+      {
+        text: `“Hm, I guess, I don’t. Not sure I’m the one who likes to test new and unknown things. Nope, I'll pass.”`,
+        nextText: 92,
       },
     ],
   },
@@ -1522,30 +1534,36 @@ const textNodes = [
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 91,
+    text: `Nnif looks disappointed. - “Listen, to be honest, I seem to be out of useful stuff. I could sell you some garbage tech, but let me save you some money and just refuse doing that. You’re better off without them. Otherwise it’ll look like doing some mining with a piece of tech instead of a pick. In theory you could do that but people who really need it won't appreciate that. And let me tell you a secret. For low-levels arenas upgrades don’t really matter. Just use your brains.” - She thinks about it for a second. - “I do know a couple of new poets and pretty sure you haven’t seen them before…”
+
+    She continues after a pause. - “There’s a fella with the name Moor Cow. Most likely will be playing something gnomish. Just go ahead and do a preventive strike on him. My gut tells me a dude like this will want to do something shady from the start.
+    
+    And there’s a new girl, Arika, I think her name. Looks strangely familiar but whatever. This one I don’t know well, but I heard that some of the rich folk have another crazy new trend - paying lots of creds to travel between towers and levels. My bet, she’s one of them. Ignore stopping that one, she’ll be using the most advanced tech I guarantee. Just try to outrun her. Maybe you’ll manage, but sadly I doubt that.
+    
+    That’s all I’ve got.”`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `“I understand. Thanks for the advice Nnif. Always appreciated your straightforwardness.” - You decide to go directly to the arena and wait for it to start there.`,
+        nextText: 47,
       },
       {
-        text: ``,
-        nextText: 0,
+        text: `“Erm… There was a strange-looking old fellow here. He’s just left but before that asked me to tell you Deo says Hi.” - You described the man to Nnif.`,
+        nextText: 40,
       },
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 92,
+    text: `Nnif chuckles. - “Your choice man. But that’s some interesting piece of tech, I’m telling you. Old man was sort of a magician. Can’t promise you that everything will go as you expect, but, well, at least you could have some fun along the way… or not. Anywho, take it or leave it, I have some work to do, so either this or good luck with writing your new poem tonight.”`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `“Oh fine, mademoiselle persuasion. You’ve got my attention now. Let’s talk about this cheating device of yours!”`,
+        nextText: 14,
       },
       {
-        text: ``,
-        nextText: 0,
+        text: `“Aye-aye, captain, I’m sailing off. To the world of poetry and beyond!” - You decide to go directly to the arena and wait for it to start there.`,
+        nextText: 47,
       },
     ],
   },

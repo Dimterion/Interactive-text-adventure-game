@@ -1,0 +1,13 @@
+# Poets of tomorrow’s world
+
+A small personal project of mine. I was more interested in its contents rather than technical side. Just a story I wanted to write with some interactivity and put into HTML format to test some techniques I've learnt.
+
+[This guide](https://www.youtube.com/watch?v=R1S_NhKkvGA&list=PLvHjogly_3JPuPbgzkBK6BmM5SJynzJb_&index=14) from Web Dev Simplified was used as an example to create this.
+
+## Link to the story
+
+[Click here](https://dimterion.github.io/Poets-of-tomorrows-world/) if want to read/play the story.
+
+## Built with
+
+HTML, CSS, JavaScript, Prettier

@@ -376,11 +376,11 @@ const textNodes = [
     id: 20,
     text: `You decide to stick with Kassad for this match. Initially your character is like a blank template with some basic traits. It’s up to you to program it during the arena. What and how it’ll be doing is your job. The match is about to start and you walk out of the locker area to finally enter the arena.
 
-    Shrike’s always changing. Each time you enter it, you don’t know where the race will start and end and what challenges are waiting for you on the way. Today’s route goes through the rabbit hole. The first checkpoint will be initiated once you go through the massive portal designed as an old PC monitor. You see green lines running on it and forming a phrase “Wake up Soai”. Last word glitches a bit, and you have a strange feeling about it, but it’s most likely just a delay, as rendering a name for each participant may take a bit of time, given the fact that lower levels tech is outdated.
+    Today’s route goes through the rabbit hole. The first checkpoint will be initiated once you go through the massive portal designed as an old PC monitor. You see green lines running on it and forming a phrase “Wake up Soai”. Last word glitches a bit, and you have a strange feeling about it, but it’s most likely just a delay, as rendering a name for each participant may take a bit of time, given the fact that lower levels tech is outdated.
     
     You and other participants are gathering right in front of the screen. Arika is standing not far from you. Once the race starts the participants stay in the current position and get control over the chosen characters that will appear right on the start line. Green lines disappear from the giant monitor and now it has a countdown running from -1 to 8. On 8 the race begins.
     
-    Suddenly you see that timer jumped to 8 straight away and the moment you got control over Kassad a player to your right, a gnome with a giant mechanical arm, hit you in the head with a steam-hummer. Your character gets stunned for 10 seconds and its HP reduces for 10 points. Then, a moment later, the visual changes and you realize that Event Horizon just showed you the near future prediction. The race is still about to start and the countdown just went to 7.
+    Suddenly you see that timer jumped to 8 straight away and the moment you got control over Kassad a player to your right, a gnome with a giant mechanical arm, hit you in the head with a steam-hummer. Your character gets stunned for 10 seconds and its HP reduces for 99 points. Then, a moment later, the visual changes and you realize that Event Horizon just showed you the near future prediction. The race is still about to start and the countdown just went to 7.
     
     8. The race starts.`,
     options: [
@@ -773,6 +773,10 @@ const textNodes = [
         text: `Check the list of participants for the arena.`,
         nextText: 45,
       },
+      {
+        text: `Check the details about today's arena.`,
+        nextText: 93,
+      },
     ],
   },
   {
@@ -789,6 +793,10 @@ const textNodes = [
         text: `Check the details about today's arena.`,
         nextText: 46,
       },
+      {
+        text: `You decide to go to the arena now and wait for it to start there.`,
+        nextText: 47,
+      },
     ],
   },
   {
@@ -798,6 +806,10 @@ const textNodes = [
       {
         text: `You decide to go to the arena now and wait for it to start there.`,
         nextText: 47,
+      },
+      {
+        text: `You think that you have a bit of time to check your virtual apartment.`,
+        nextText: 95,
       },
     ],
   },
@@ -812,6 +824,10 @@ const textNodes = [
       {
         text: `You shake hands with Arika. - “Hey-hey. Welcome. I’m Soai. Kind of a regular here, lol. I guess one can even say stuck. But we can all hope for a better tomorrow. Where did you come from if you don’t mind me asking?`,
         nextText: 48,
+      },
+      {
+        text: `Cross your hands on the chest and play a cool-boy. - “So, we’ve got a newbie here, haven’t we? Call me Soai. I'm a veteran here, know all the ins and outs of this arena.”`,
+        nextText: 96,
       },
     ],
   },
@@ -828,6 +844,10 @@ const textNodes = [
       {
         text: `Kassad. A romantic soldier with a love for the past. Have a special ability of moving backwards and using weapons from any period of history. Can be stunned by flashbacks randomly at any moment. With very little chance can flee from the battle with a suddenly appearing woman (some say that may happen, but so far there is no real proof, so it’s quite unlikely to happen during the arena).`,
         nextText: 49,
+      },
+      {
+        text: `Masteen. A mysterious templar. Always carries a strange cube with himself. Says there’s a space tree there that he can ride. Can randomly lose conscience. Some also say that he can disappear at any moment without a warning. Though nobody could provide any evidence for now.`,
+        nextText: 98,
       },
     ],
   },
@@ -846,6 +866,10 @@ const textNodes = [
       {
         text: `Program Kassad to shoot a few rounds to the gnome’s mechanical arm, then rush forward.`,
         nextText: 50,
+      },
+      {
+        text: `Ignore the gnome and begin the race.`,
+        nextText: 100,
       },
     ],
   },
@@ -1114,11 +1138,11 @@ const textNodes = [
     id: 66,
     text: `You decide to stick with Masteen for this match. Initially your character is like a blank template with some basic traits. It’s up to you to program it during the arena. What and how it’ll be doing is your job. The match is about to start and you walk out of the locker area to finally enter the arena.
 
-    Shrike’s always changing. Each time you enter it, you don’t know where the race will start and end and what challenges are waiting for you on the way. Today’s route goes through the rabbit hole. The first checkpoint will be initiated once you go through the massive portal designed as an old PC monitor. You see green lines running on it and forming a phrase “Wake up Soai”. Last word glitches a bit, and you have a strange feeling about it, but it’s most likely just a delay, as rendering a name for each participant may take a bit of time, given the fact that lower levels tech is outdated.
+    Today’s route goes through the rabbit hole. The first checkpoint will be initiated once you go through the massive portal designed as an old PC monitor. You see green lines running on it and forming a phrase “Wake up Soai”. Last word glitches a bit, and you have a strange feeling about it, but it’s most likely just a delay, as rendering a name for each participant may take a bit of time, given the fact that lower levels tech is outdated.
     
     You and other participants are gathering right in front of the screen. Arika is standing not far from you. Once the race starts the participants stay in the current position and get control over the chosen characters that will appear right on the start line. Green lines disappear from the giant monitor and now it has a countdown running from -1 to 8. On 8 the race begins.
     
-    Suddenly you see that timer jumped to 8 straight away and the moment you got control over Masteen a player to your right, a gnome with a giant mechanical arm, hit you in the head with a steam-hummer. Your character gets stunned for 10 seconds and its HP reduces for 10 points. Then, a moment later, the visual changes and you realize that Event Horizon just showed you the near future prediction. The race is still about to start and the countdown just went to 7.
+    Suddenly you see that timer jumped to 8 straight away and the moment you got control over Masteen a player to your right, a gnome with a giant mechanical arm, hit you in the head with a steam-hummer. Your character gets stunned for 10 seconds and its HP reduces for 99 points. Then, a moment later, the visual changes and you realize that Event Horizon just showed you the near future prediction. The race is still about to start and the countdown just went to 7.
     
     8. The race starts.`,
     options: [
@@ -1568,30 +1592,148 @@ const textNodes = [
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 93,
+    text: `Shrike’s always changing. Each time you enter it, you don’t know where the race will start and end and what challenges are waiting for you on the way. Today’s route goes through the rabbit hole. That probably means some hidden traps and weird-looking animals that are trying to kill you. Not much to learn here. It’s supposed to be unknown up until the moment when the race begins.`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `Check the list of participants for the arena.`,
+        nextText: 94,
       },
       {
-        text: ``,
-        nextText: 0,
+        text: `You decide to go to the arena now and wait for it to start there.`,
+        nextText: 47,
       },
     ],
   },
   {
-    id: 0,
-    text: ``,
+    id: 94,
+    text: `You see many familiar names: Goose Ra Doubt, annoyingly loud dude with a strange attraction to cats, not really an opponent as he keeps using the same gameplay for years and promising to create something new in due time; Nani O Maiev-A, a strong lady that once loved a very old guy who betrayed her and then wasn’t prepared for her revenge, a worthy opponent but since she stops wearing her old armor (for some honor principles), mostly represents a no-threat participant; Citiesdzen Stored, that was once upon a time everyone favorite participant but then went into overpromising and underdelivering mode, rumor has it, the man has lots of money and is ready to show everyone something fantastic but each time cancels and reschedules it, you don’t really expect to see anything new from him.
+
+    You then notice a couple of names you haven’t seen before.
+    
+    Moor Cow and Arika. Strange. It’s the first time you see these two. Newcomers are usually a rare thing on the arena of any level. Those coming up from the lower ones at first have some chances to find a job and the ones coming down from the higher ones are at first too depressed to take part in pretty much anything. Due to this you know almost every poet on your level. But these two seem to be an exception.
+    
+    Moor Cow dude seems suspicious to you. You’re pretty sure this one won’t be playing fair. Won’t be a surprise if he’ll choose a gnome character.`,
     options: [
       {
-        text: ``,
-        nextText: 0,
+        text: `You decide to go to the arena now and wait for it to start there.`,
+        nextText: 47,
       },
       {
-        text: ``,
-        nextText: 0,
+        text: `You think that you have a bit of time to check your virtual apartment.`,
+        nextText: 95,
+      },
+    ],
+  },
+  {
+    id: 95,
+    text: `Halfway to your place bump into your old buddy - Sane Snacks. A very big fellow, always wearing some strange clothes, consisted of plastic plates, worn off rugs and some metal pieces of unknown origin. His voice roars. - “Soai! My favorite friend! Come here!” - Two giant arms hug you. - “What’s new with you? I haven’t seen you for quite some time. Thought you went down to the first level.”
+    
+    This seems strange to you, you’ve a feeling that quite recently you meet with Sane but you can’t remember why and when exactly.`,
+    options: [
+      {
+        text: `Not really the best moment to talk. - “Ah well, been here and there. Just busy I guess. Listen, sorry for being harsh, but I’m a bit in a hurry, so catch up with you later, ok?” - Quickly go away and ignore Sane’s attempts to continue the conversation. Too much human relations for you for today. Go to the arena.`,
+        nextText: 47,
+      },
+      {
+        text: `“Hm, I thought we'd seen each other a couple of days ago, no? Man, these Writers Fights really start taking all my time. Maybe it wasn’t just a couple of days.”`,
+        nextText: 89,
+      },
+    ],
+  },
+  {
+    id: 96,
+    text: `Arika can’t hold herself and starts laughing. - “I like your sense of humor! Veteran! He-he-he. I’m something of a veteran myself.” - She keeps giggling. - “So, what can you tell me about this place? Should I go all defense or offense to get… not the first place?” - She winks.`,
+    options: [
+      {
+        text: `You understand that you look like a child now. - “Yeah, sorry about that. I guess I’m not good at meeting new people. I’m by no means a pro here. Just keep trying and hope one day to become good enough to win. Where did you come from if you don’t mind me asking?”`,
+        nextText: 48,
+      },
+      {
+        text: `Pfff, what do you know! I’m not in the mood to talk with noobs. So, figure it out yourself.” - You decide to walk away.`,
+        nextText: 97,
+      },
+    ],
+  },
+  {
+    id: 97,
+    text: `Arika waves at you. - “Have fun not talking to yourself then!” - Despite everything she’s still looking like having a good time and nothing happened. - “See ya! Have a good time!”
+    
+    While you spoke with her other participants started entering the lockers area. While the space looks small, developers made a system of layers, so everyone can fit in and still be able to communicate with the rest. Actually, they called it shards, not layers, but frankly nobody really understood the difference. Long story short, a small lockers area could fit lots of poets without the need to extend its physical space.
+    
+    Due to this you don’t see all of the participants but you can check the list in your UI interface and target those you want to talk to. Arika was the first one to come, so she automatically got into the same shard as you.
+    
+    It’s time to choose a character you’ll be playing during the arena. You go to your locker and open the menu with the randomly provided options.`,
+    options: [
+      {
+        text: `Kassad. A romantic soldier with a love for the past. Have a special ability of moving backwards and using weapons from any period of history. Can be stunned by flashbacks randomly at any moment. With very little chance can flee from the battle with a suddenly appearing woman (some say that may happen, but so far there is no real proof, so it’s quite unlikely to happen during the arena).`,
+        nextText: 49,
+      },
+      {
+        text: `Masteen. A mysterious templar. Always carries a strange cube with himself. Says there’s a space tree there that he can ride. Can randomly lose conscience. Some also say that he can disappear at any moment without a warning. Though nobody could provide any evidence for now.`,
+        nextText: 98,
+      },
+    ],
+  },
+  {
+    id: 98,
+    text: `You decide to stick with Masteen for this match. Initially your character is like a blank template with some basic traits. It’s up to you to program it during the arena. What and how it’ll be doing is your job. The match is about to start and you walk out of the locker area to finally enter the arena.
+    
+    The race begins once you go through the massive portal designed as an old PC monitor. You see green lines running on it and forming a phrase “What do we say to waking up?”. The letters glitch a bit, and you have a strange feeling about it, but it’s most likely just a delay, given the fact that lower levels tech is outdated.
+
+    You and other participants are gathering right in front of the screen. Arika is standing not far from you. Once the race starts the participants stay in the current position and get control over the chosen characters that will appear right on the start line. Green lines disappear from the giant monitor and now it has a countdown running from -1 to 8. On 8 the race begins.
+    
+    You turn right and see Moor Cow. He’s chosen a gnome character with a giant mechanic arm.
+    
+    The race begins.`,
+    options: [
+      {
+        text: `Program Masteen to use his strange cube.`,
+        nextText: 99,
+      },
+      {
+        text: `Ignore the gnome and begin the race.`,
+        nextText: 100,
+      },
+    ],
+  },
+  {
+    id: 99,
+    text: `Masteen takes out the cube and makes some strange manipulations with it, then you see that the gnome is trying to hit you. The cube suddenly opens and the mechanical arm goes right into it. The cube closes, cuts the whole arm and stuns the gnome for a few seconds. Masteen rushes forward.
+
+    Arika appears near you on the red futuristic bike. She mocks you. - “Wow, some brutality you show us today mister. Or was it… cubality?” - Then she drives forward and disappears behind the corner of the track.
+
+    The rest of the race seems strangely mundane to you. All the obstacles are already well-known and nothing new happens. You easily avoid traps and Shrike’s blades and finish second.
+
+    Arika is waiting for you at the finish line.`,
+    options: [
+      {
+        text: `“Congrats. Nice bike you’ve made there.”`,
+        nextText: 51,
+      },
+      {
+        text: `“Not bad. Do you always use the same appearance during the arena?”`,
+        nextText: 72,
+      },
+    ],
+  },
+  {
+    id: 100,
+    text: `The moment you start moving the gnome hits you in the head with a giant steam-hummer. Your character gets stunned for 10 seconds and its HP reduces for 99 points.
+
+    You continue the race with 1 HP. You would be able to finish it as everything seems strangely familiar to you and you know all the ins and outs of today’s route. But at the very end of the track even though Moor Cow is ahead of you, just for lulz he turns and throws something at you. You notice that it's a nose on which you see the words “J’adore”. Apparently it’s not a perfume but a bomb which explodes and thus your last health point is gone.
+    
+    Seems like today’s arena is not for you to finish.
+    
+    You went outside not interested in the results. Seems like it was Arika who took first place. You look at the digital sky and for a moment see a phrase of red and yellow colors - “Do you like loops?”`,
+    options: [
+      {
+        text: `Not really, but there isn't any other option.`,
+        nextText: 1,
+      },
+      {
+        text: `Yeah, Let's do this!`,
+        nextText: 1,
       },
     ],
   },

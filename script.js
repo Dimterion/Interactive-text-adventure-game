@@ -42,25 +42,7 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: `In the distant future Earth's surface got toxic and the air became polluted. In an attempt to survive humans built life-scrapers - giant buildings going high into the sky where it was still possible to live. People call them towers. Money and power are the two factors that define your fate. The more you have, the higher level of the life-scraper you can reach, and thus increase your chances for a longer life. The closer you are to the surface, the faster you die.
-
-    Pollution and toxins are slowly growing and getting up. One day they will finally reach the top levels of the highest towers.
-    
-    Towers are not big enough to deal with the birth rate and it’s heavily regulated. Movement between the towers is almost impossible. Only the richest ones have a chance to travel and visit other life-scrapers.
-    
-    Each tower is a separate state while all of them are ruled by the Builders Council. They planned and constructed all of them back in the days and their dynasty defines humans' fate since then. They are located at the top of the main life-scraper called the Pillar.
-    
-    Not having much space, jobs and activities in the real world, humans spent most of the time in the virtual one. It’s a global network called zerOne, a virtual representation of the tower you live in. It has more space but is still restricted in terms of getting higher or lower. Your financial situation is the main factor that can remove some restrictions. Connections with other towers are blocked, although there are some ways to bypass it.
-    
-    In the times not long before the tower’s era most of the Earth’s population became coders who call themselves writers. The profession became so popular that it led to almost full replacement of all other labor by robots programmed by writers.
-    
-    Most of the human’s jobs were replaced by machines.
-    
-    Currently manual labor has ceased to exist. The Builders Council controls the robots production and writers guilds compete for each sector where robots are being used. Coders manage their work, fix bugs and develop new features. However, the need for it is significantly less than the population numbers. Every writer's guild is constantly full and even within them only the best ones manage to stay and continue working there.
-    
-    Those who are not able to work in the robot industry search for various sources of income in zerOne. The most popular ones are the Writers Fights. These are virtual fighting arenas where coders need to create artificial characters from scratch during the match. These characters then fight each other in virtual space. Participants call themselves poets. Mostly because for the majority each fight is the last frontier between the lower and higher tower’s levels. They call it the Last Song. Sometimes you sing it before getting on the previous level and sometimes before getting on the next one.
-    
-    You are Soai, one of the poets. It wasn’t your choice to become one, it was a necessity.
+    text: `You are Soai, one of the poets. It wasn’t your choice to become one, it was a necessity.
 
     The tower where you live is called the Bridge. It is divided into five levels. You are on the second one. One level above the one where you won’t live long and one level below the one which is a border between the higher and lower societies. Each level is massive and includes many tiers with resident areas, work stations, stores, food places, etc.
     

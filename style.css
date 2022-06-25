@@ -7,7 +7,7 @@
 
 body {
   padding: 0;
-  margin: 5vh 0;
+  margin: 1vh 0;
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -33,8 +33,8 @@ body {
 }
 
 .btn {
-  background-color: hsl(200, 100%, 50%);
-  border: 1px solid hsl(200, 100%, 30%);
+  background-color: rgb(95, 95, 95);
+  border: 1px solid;
   border-radius: 5px;
   padding: 5px 10px;
   color: white;
@@ -42,5 +42,20 @@ body {
 }
 
 .btn:hover {
+  background-color: white;
   border-color: black;
+  color: black;
+  cursor: pointer;
+}
+
+/* Introductory page */
+
+#intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
 }

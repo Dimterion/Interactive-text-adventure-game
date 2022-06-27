@@ -45,6 +45,7 @@ body {
   border-color: black;
   color: black;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 /* Introductory page */

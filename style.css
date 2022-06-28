@@ -2,7 +2,9 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Play, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }
 
 body {

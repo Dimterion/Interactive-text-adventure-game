@@ -20,7 +20,7 @@ body {
 .container {
   width: 800px;
   max-width: 80%;
-  background-color: white;
+  background-color: rgb(195, 195, 195);
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px;
@@ -38,12 +38,12 @@ body {
   border: 1px solid;
   border-radius: 5px;
   padding: 5px 10px;
-  color: white;
+  color: rgb(210, 210, 210);
   outline: none;
 }
 
 .btn:hover {
-  background-color: white;
+  background-color: rgb(195, 195, 195);
   border-color: black;
   color: black;
   cursor: pointer;

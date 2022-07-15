@@ -6,7 +6,7 @@ A small personal project of mine. I was more interested in its contents rather t
 
 ## Link to the story
 
-[Click here](https://dimterion.github.io/Poets-of-tomorrows-world/) if want to read/play the story.
+[Click here](https://dimterion.github.io/Interactive-text-adventure-game/) if want to read/play the story.
 
 ## Built with
 

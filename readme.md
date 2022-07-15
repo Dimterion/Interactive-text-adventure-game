@@ -1,4 +1,4 @@
-# Poets of tomorrow’s world
+# Interactive text adventure game
 
 A small personal project of mine. I was more interested in its contents rather than technical side. Just a story I wanted to write with some interactivity and put into HTML format to test some techniques I've learnt.
 

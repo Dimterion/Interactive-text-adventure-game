@@ -1,6 +1,4 @@
-UPDATE: I've remade this project and it's current version can be seen [here](https://poets-of-tomorrows-world.vercel.app/) (and the new repo is [here](https://github.com/Dimterion/PoTW)).
-
-# Poets of tomorrow’s world
+# Interactive text adventure game
 
 A small personal project of mine. I was more interested in its contents rather than technical side. Just a story I wanted to write with some interactivity and put into HTML format to test some techniques I've learnt.
 
@@ -8,7 +6,7 @@ A small personal project of mine. I was more interested in its contents rather t
 
 ## Link to the story
 
-[Click here](https://dimterion.github.io/Poets-of-tomorrows-world/) if want to read/play the story.
+[Click here](https://dimterion.github.io/Interactive-text-adventure-game/) if want to read/play the story.
 
 ## Built with
 

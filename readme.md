@@ -1,3 +1,5 @@
+UPDATE: I've remade this project and it's current version can be seen [here](https://poets-of-tomorrows-world.vercel.app/) (and the new repo is [here](https://github.com/Dimterion/PoTW)).
+
 # Poets of tomorrow’s world
 
 A small personal project of mine. I was more interested in its contents rather than technical side. Just a story I wanted to write with some interactivity and put into HTML format to test some techniques I've learnt.

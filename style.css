@@ -11,10 +11,29 @@ body {
   padding: 0;
   margin: 1vh 0;
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   width: 100vw;
   background-color: #333;
+}
+
+.reference {
+  color: rgb(195, 195, 195);
+  font-size: 1.5rem;
+  margin: 5px;
+  border: 5px solid red;
+  padding: 5px;
+  text-align: center;
+}
+
+.reference a {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.reference a:hover {
+  text-decoration: underline;
 }
 
 .container {
